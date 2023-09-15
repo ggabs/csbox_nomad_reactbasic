@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/csbox_nomad_reactbasic/static/js/main.72efcc5a.js",
-    "index.html": "/csbox_nomad_reactbasic/index.html",
-    "main.72efcc5a.js.map": "/csbox_nomad_reactbasic/static/js/main.72efcc5a.js.map"
+    "main.js": "./static/js/main.72efcc5a.js",
+    "index.html": "./index.html",
+    "main.72efcc5a.js.map": "./static/js/main.72efcc5a.js.map"
   },
   "entrypoints": [
     "static/js/main.72efcc5a.js"
