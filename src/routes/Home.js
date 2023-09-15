@@ -26,7 +26,7 @@ export default function Home() {
       ) : (
         <div>
           {movies.map((item) => (
-            <Movie mv={item} />
+            <Movie key={item.id} mv={item} id={item.id} />
           ))}
         </div>
       )}

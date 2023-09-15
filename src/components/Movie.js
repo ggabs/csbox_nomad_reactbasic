@@ -1,10 +1,13 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-export default function Movie({ mv }) {
+export default function Movie({ mv, id }) {
   return (
     <div>
       <img src={mv.medium_cover_image} />
-      <h2>{mv.title}</h2>
+      <h2>
+        <Link to={`/movie/${id}`}>{mv.title}</Link>
+      </h2>
       <p>{mv.summary}</p>
       <ul>
         {mv.genres.map((g) => (
