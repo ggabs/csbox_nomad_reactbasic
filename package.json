@@ -8,6 +8,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "loader-utils": "3.2.1",
     "prop-types": "15.8.1",
     "react": "18.2.0",
@@ -23,12 +24,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -b develop -d build",
+    "predeploy": "npm run build"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://ggabs.github.io/csbox_nomad_reactbasic"
 }
